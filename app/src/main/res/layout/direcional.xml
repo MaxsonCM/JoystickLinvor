@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp" android:layout_height="300dp"
+    android:background="#000000"
+    android:id="@+id/direcional">
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:id="@+id/button7"
+        android:layout_marginTop="97dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/botao_centro_selector" />
+    <Button
+        android:layout_width="50sp"
+        android:layout_height="120sp"
+        android:id="@+id/button3"
+        android:background="@drawable/botao_baixo_selector"
+        android:layout_alignTop="@+id/button6"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="120sp"
+        android:layout_height="50sp"
+        android:id="@+id/button6"
+        android:background="@drawable/botao_direita_selector"
+        android:layout_alignTop="@+id/button7"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+    <Button
+        android:layout_width="120sp"
+        android:layout_height="50sp"
+        android:id="@+id/button5"
+        android:background="@drawable/botao_esquerda_selector"
+        android:layout_alignTop="@+id/button3"
+        android:layout_alignRight="@+id/button3"
+        android:layout_alignEnd="@+id/button3" />
+    <Button
+        android:layout_width="50sp"
+        android:layout_height="120sp"
+        android:id="@+id/button2"
+        android:background="@drawable/botao_cima_selector"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+</RelativeLayout>

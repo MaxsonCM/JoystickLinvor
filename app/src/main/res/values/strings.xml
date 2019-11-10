@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Joystick Linvor</string>
+    <string name="action_settings">Configuração</string>
+    <string name="title_activity_joystick">Joystick</string>
+    <string name="title_activity_lista_dispositivo">Seleção do Bluetooth</string>
+    <string name="title_activity_menu__selecao">Menu de Seleção</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_edit_controler">Editor</string>
+    <string name="title_activity_sensor">Sensor</string>
+    <string name="hello_world">Olá Mundo</string>
+</resources>
